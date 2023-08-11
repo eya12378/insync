@@ -1,0 +1,11 @@
+{
+  "/jira-api/*": {
+    "target": "https://eyatouili.atlassian.net/rest/api/2/issue/10008",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/jira-api": ""
+    }
+  }
+}
